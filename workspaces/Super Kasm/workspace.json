@@ -1,0 +1,20 @@
+{
+  "friendly_name": "Super Kasm",
+  "image_src": "blob:https://adziedzic2127.github.io/d72926e5-65f0-49b6-ab46-d692c2b7af90",
+  "description": "Kasm but Super",
+  "name": "laxgoddeez/dzkasm:development",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Desktop"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "architecture": [
+    "amd64"
+  ]
+}
