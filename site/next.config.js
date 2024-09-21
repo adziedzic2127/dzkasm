@@ -2,15 +2,15 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    name: 'LaxGodDeez Registry',
+    description: 'My collection of Workspaces.',
+    icon: 'https://kodestar.github.io/kasm-registry/1.0/icon.png',
+    listUrl: 'https://adziedzic2127.github.io/dzkasm/',
+    contactUrl: 'https://www.capstone-sh.net',
   },
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/kasm-registry/1.0',
+  basePath: '/1.0',
   trailingSlash: true,
   images: {
     unoptimized: true,
