@@ -1,6 +1,6 @@
 {
-  "friendly_name": "sudokasm",
-  "image_src": "sudokasm.png",
+  "friendly_name": "SudoKasm",
+  "image_src": "SudoKasm.svg",
   "description": null,
   "name": "laxgoddeez/dzkasm:development",
   "cores": 2,
