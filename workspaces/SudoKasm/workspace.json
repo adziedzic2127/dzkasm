@@ -1,7 +1,7 @@
 {
   "friendly_name": "SudoKasm",
-  "image_src": "SudoKasm.svg",
-  "description": null,
+  "image_src": "blob:https://adziedzic2127.github.io/6d766cf3-7755-4a5b-8508-79c6f5e9bba4",
+  "description": "Linux",
   "name": "laxgoddeez/dzkasm:development",
   "cores": 2,
   "memory": 2768,
@@ -14,5 +14,7 @@
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
-  "architecture": []
+  "architecture": [
+    "amd64"
+  ]
 }
