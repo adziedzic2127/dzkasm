@@ -1,19 +1,36 @@
 {
-  "friendly_name": "Your App Name",
-  "description": "A description of your app.",
-  "image_src": "icon.png",
-  "categories": ["Desktop"],
-  "architecture": ["amd64"],
+  "friendly_name": "SudoKasm",
+  "description": "SudoKasm",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "SudoKasm.svg",
+  "categories": [
+    "Browser"
+  ],
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
   "compatibility": [
     {
       "version": "1.15.x",
-      "image": "kasmweb/core-ubuntu-focal:1.15.0",
-      "uncompressed_size_mb": 2500
+      "image": "laxgoddeez/dzkasm:development",
+      "uncompressed_size_mb": 2170
     },
     {
       "version": "1.16.x",
-      "image": "kasmweb/core-ubuntu-focal:1.16.0",
-      "uncompressed_size_mb": 2500
+      "image": "laxgoddeez/dzkasm:development",
+      "uncompressed_size_mb": 2170
     }
   ]
 }
